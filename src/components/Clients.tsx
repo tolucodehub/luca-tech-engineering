@@ -66,7 +66,7 @@ const Clients = () => {
           <div className="relative z-10 max-w-3xl mx-auto text-center">
             <div className="text-6xl text-primary/20 mb-6">"</div>
             <p className="text-xl md:text-2xl text-foreground leading-relaxed mb-8">
-              Luca Tech Engineering has been instrumental in revolutionizing our
+              Lucatech Power Solution Limited has been instrumental in revolutionizing our
               metering infrastructure. Their smart prepaid meters and energy
               management solutions have significantly improved our revenue
               collection and customer satisfaction.

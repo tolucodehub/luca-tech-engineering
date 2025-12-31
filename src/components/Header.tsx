@@ -63,15 +63,15 @@ const Header = () => {
             <a href="#home" className="flex items-center gap-3">
               <img
                 src={logo}
-                alt="Luca Tech Engineering"
+                alt="Lucatech Power Solution Limited"
                 className="h-12 w-auto"
               />
               <div className="hidden sm:block">
                 <span className="font-heading font-bold text-lg text-foreground">
-                  Luca<span className="text-primary">Tech</span>
+                  Luca<span className="text-primary">tech</span>
                 </span>
                 <span className="block text-xs text-muted-foreground -mt-1">
-                  Engineering
+                  Power Solution
                 </span>
               </div>
             </a>

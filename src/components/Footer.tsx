@@ -16,15 +16,15 @@ const Footer = () => {
             <a href="#home" className="flex items-center gap-3 mb-6">
               <img
                 src={logo}
-                alt="Luca Tech Engineering"
+                alt="Lucatech Power Solution Limited"
                 className="h-12 w-auto"
               />
               <div>
                 <span className="font-heading font-bold text-lg text-foreground">
-                  Luca<span className="text-primary">Tech</span>
+                  Luca<span className="text-primary">tech</span>
                 </span>
                 <span className="block text-xs text-muted-foreground -mt-1">
-                  Engineering
+                  Power Solution
                 </span>
               </div>
             </a>
@@ -118,7 +118,7 @@ const Footer = () => {
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-muted-foreground text-center md:text-left">
-              © {new Date().getFullYear()} Luca Tech Engineering. All rights
+              © {new Date().getFullYear()} Lucatech Power Solution Limited. All rights
               reserved.
             </p>
             <div className="flex items-center gap-6">

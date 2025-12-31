@@ -41,7 +41,7 @@ const Hero = () => {
             </h1>
 
             <p className="text-lg md:text-xl text-muted-foreground max-w-xl animate-fade-up delay-200">
-              Luca Tech Engineering is Nigeria's largest supplier of smart
+              Lucatech Power Solution Limited is Nigeria's largest supplier of smart
               prepaid meters, delivering innovative energy management solutions
               across Africa, China, and the USA.
             </p>
