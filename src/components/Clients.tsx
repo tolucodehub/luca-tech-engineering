@@ -8,6 +8,8 @@ import ibedcLogo from "@/assets/clients/ibedc.png";
 import eniLogo from "@/assets/clients/eni.png";
 import desiconLogo from "@/assets/clients/desicon.jpg";
 import makonLogo from "@/assets/clients/makon.jpg";
+import firemiksLogo from "@/assets/clients/firemiks.jpg";
+import marsenergoLogo from "@/assets/clients/marsenergo.png";
 
 const clients = [
   { name: "Chevron", logo: chevronLogo },
@@ -20,6 +22,8 @@ const clients = [
   { name: "ENI Saipem", logo: eniLogo },
   { name: "Desicon", logo: desiconLogo },
   { name: "Makon Engineering", logo: makonLogo },
+  { name: "Firemiks", logo: firemiksLogo },
+  { name: "Marsenergo", logo: marsenergoLogo },
 ];
 
 const Clients = () => {
@@ -41,16 +45,16 @@ const Clients = () => {
         </div>
 
         {/* Client Logos Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-6 mb-12">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6 mb-12">
           {clients.map((client, index) => (
             <div
               key={index}
-              className="bg-white rounded-xl p-6 flex items-center justify-center hover:shadow-lg transition-all duration-300 group min-h-28"
+              className="bg-white rounded-xl p-5 flex items-center justify-center hover:shadow-lg transition-all duration-300 group min-h-24 border border-border"
             >
               <img
                 src={client.logo}
                 alt={client.name}
-                className="max-h-16 max-w-full object-contain group-hover:scale-105 transition-transform"
+                className="max-h-12 max-w-full object-contain group-hover:scale-105 transition-transform"
               />
             </div>
           ))}
