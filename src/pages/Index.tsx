@@ -13,16 +13,16 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Lucatech Power Solution Limited | Nigeria's Leading Smart Meter Supplier</title>
+        <title>Luca Tech Engineering | Nigeria's Leading Smart Meter Supplier</title>
         <meta
           name="description"
-          content="Lucatech Power Solution Limited is Nigeria's largest supplier of smart prepaid meters with operations across Africa, China, and USA. We deliver innovative energy management solutions for power, oil & gas sectors."
+          content="Luca Tech Engineering is Nigeria's largest supplier of smart prepaid meters with operations across Africa, China, and USA. We deliver innovative energy management solutions for power, oil & gas sectors."
         />
         <meta
           name="keywords"
-          content="smart meters, prepaid meters, energy management, Nigeria, DISCO, power sector, oil and gas, Lucatech Power Solution Limited"
+          content="smart meters, prepaid meters, energy management, Nigeria, DISCO, power sector, oil and gas, Luca Tech Engineering"
         />
-        <link rel="canonical" href="https://lucatechpowersolution.com" />
+        <link rel="canonical" href="https://lucatechengineering.com" />
       </Helmet>
 
       <div className="min-h-screen bg-background">
