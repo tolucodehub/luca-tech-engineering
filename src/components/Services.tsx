@@ -1,6 +1,8 @@
 import { Zap, Droplet, Building2, BarChart3, Wrench, Shield } from "lucide-react";
 import installationWork from "@/assets/installation-work.jpg";
 import oilGasFacility from "@/assets/oil-gas-facility.jpg";
+import engineerControlPanel from "@/assets/engineer-control-panel.jpg";
+import teamMeeting from "@/assets/team-meeting.jpg";
 
 const services = [
   {
@@ -70,19 +72,19 @@ const Services = () => {
         </div>
 
         {/* Featured Images */}
-        <div className="grid md:grid-cols-2 gap-6 mb-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
           <div className="relative group overflow-hidden rounded-2xl">
             <img
               src={installationWork}
               alt="Meter Installation"
               className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-background to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-foreground/80 to-transparent" />
             <div className="absolute bottom-6 left-6">
-              <h3 className="text-xl font-heading font-bold text-foreground">
+              <h3 className="text-lg font-heading font-bold text-white">
                 Professional Installation
               </h3>
-              <p className="text-muted-foreground">Expert meter installation services</p>
+              <p className="text-white/80 text-sm">Expert meter installation</p>
             </div>
           </div>
           <div className="relative group overflow-hidden rounded-2xl">
@@ -91,12 +93,40 @@ const Services = () => {
               alt="Oil & Gas Facility"
               className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-background to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-foreground/80 to-transparent" />
             <div className="absolute bottom-6 left-6">
-              <h3 className="text-xl font-heading font-bold text-foreground">
+              <h3 className="text-lg font-heading font-bold text-white">
                 Oil & Gas Operations
               </h3>
-              <p className="text-muted-foreground">Industrial energy infrastructure</p>
+              <p className="text-white/80 text-sm">Industrial infrastructure</p>
+            </div>
+          </div>
+          <div className="relative group overflow-hidden rounded-2xl">
+            <img
+              src={engineerControlPanel}
+              alt="Engineer at Control Panel"
+              className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-foreground/80 to-transparent" />
+            <div className="absolute bottom-6 left-6">
+              <h3 className="text-lg font-heading font-bold text-white">
+                Technical Expertise
+              </h3>
+              <p className="text-white/80 text-sm">Expert engineers</p>
+            </div>
+          </div>
+          <div className="relative group overflow-hidden rounded-2xl">
+            <img
+              src={teamMeeting}
+              alt="Team Meeting"
+              className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-foreground/80 to-transparent" />
+            <div className="absolute bottom-6 left-6">
+              <h3 className="text-lg font-heading font-bold text-white">
+                Strategic Planning
+              </h3>
+              <p className="text-white/80 text-sm">Smart grid solutions</p>
             </div>
           </div>
         </div>
