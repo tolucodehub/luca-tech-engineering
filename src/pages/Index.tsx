@@ -7,6 +7,7 @@ import Solutions from "@/components/Solutions";
 import Manufacturing from "@/components/Manufacturing";
 import Leadership from "@/components/Leadership";
 import Clients from "@/components/Clients";
+import Discos from "@/components/Discos";
 import Branches from "@/components/Branches";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -37,6 +38,7 @@ const Index = () => {
           <Manufacturing />
           <Leadership />
           <Clients />
+          <Discos />
           <Branches />
           <Contact />
         </main>
