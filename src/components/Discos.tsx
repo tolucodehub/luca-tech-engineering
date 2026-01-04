@@ -3,7 +3,12 @@ import bedcLogo from "@/assets/discos/bedc.png";
 import ekedcLogo from "@/assets/discos/ekedc.png";
 import eedcLogo from "@/assets/discos/eedc.png";
 import ibedcLogo from "@/assets/discos/ibedc.png";
+import ikedcLogo from "@/assets/discos/ikedc.png";
+import jedcLogo from "@/assets/discos/jedc.jpg";
+import kaedcoLogo from "@/assets/discos/kaedco.png";
 import kedcoLogo from "@/assets/discos/kedco.png";
+import phedcLogo from "@/assets/discos/phedc.png";
+import yedcLogo from "@/assets/discos/yedc.png";
 import ScrollReveal from "@/components/ScrollReveal";
 
 const discos = [
@@ -12,7 +17,12 @@ const discos = [
   { name: "Eko Electricity Distribution Company", shortName: "EKEDC", logo: ekedcLogo },
   { name: "Enugu Electricity Distribution Company", shortName: "EEDC", logo: eedcLogo },
   { name: "Ibadan Electricity Distribution Company", shortName: "IBEDC", logo: ibedcLogo },
+  { name: "Ikeja Electric", shortName: "IKEDC", logo: ikedcLogo },
+  { name: "Jos Electricity Distribution Plc", shortName: "JEDC", logo: jedcLogo },
+  { name: "Kaduna Electric", shortName: "KAEDCO", logo: kaedcoLogo },
   { name: "Kano Electricity Distribution Company", shortName: "KEDCO", logo: kedcoLogo },
+  { name: "Port Harcourt Electricity Distribution Company", shortName: "PHEDC", logo: phedcLogo },
+  { name: "Yola Electricity Distribution Company", shortName: "YEDC", logo: yedcLogo },
 ];
 
 const Discos = () => {
