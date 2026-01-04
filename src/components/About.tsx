@@ -48,7 +48,7 @@ const About = () => {
               <span className="text-gradient"> Since Inception</span>
             </h2>
             <p className="text-lg text-muted-foreground">
-              Luca Tech Engineering is an international holdings company with a
+              Luca Tech Power Solution Limited is an international holdings company with a
               track record of delivering innovative energy solutions across
               multiple continents.
             </p>
@@ -63,7 +63,7 @@ const About = () => {
               <div className="relative z-10">
                 <img
                   src={teamWorking}
-                  alt="Luca Tech Engineering Team"
+                  alt="Luca Tech Power Solution Limited Team"
                   className="rounded-2xl shadow-2xl w-full"
                 />
               </div>

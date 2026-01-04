@@ -63,7 +63,7 @@ const Header = () => {
             <a href="#home" className="flex items-center gap-3">
               <img
                 src={logo}
-                alt="Luca Tech Engineering"
+                alt="Luca Tech Power Solution Limited"
                 className="h-12 w-auto"
               />
               <div className="hidden sm:block">
@@ -71,7 +71,7 @@ const Header = () => {
                   Luca<span className="text-primary">Tech</span>
                 </span>
                 <span className="block text-xs text-muted-foreground -mt-1">
-                  Engineering
+                  Power Solution
                 </span>
               </div>
             </a>

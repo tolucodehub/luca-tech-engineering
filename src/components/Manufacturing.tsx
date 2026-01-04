@@ -1,7 +1,9 @@
 import manufacturing1 from "@/assets/manufacturing-1.jpg";
 import manufacturing2 from "@/assets/manufacturing-2.jpg";
 import manufacturing3 from "@/assets/manufacturing-3.jpg";
-import { Factory, Cog, CheckCircle } from "lucide-react";
+import warehouseMeters from "@/assets/warehouse-meters.jpg";
+import teamWorkers from "@/assets/team-workers.jpg";
+import { Factory, Cog, CheckCircle, Warehouse, Users } from "lucide-react";
 import ScrollReveal from "@/components/ScrollReveal";
 
 const Manufacturing = () => {
@@ -9,6 +11,8 @@ const Manufacturing = () => {
     { src: manufacturing1, alt: "Meter assembly production line" },
     { src: manufacturing2, alt: "Technicians assembling smart meters" },
     { src: manufacturing3, alt: "Quality control inspection" },
+    { src: warehouseMeters, alt: "Warehouse with meters packed in cartons" },
+    { src: teamWorkers, alt: "Luca Tech Power Solutions team in green coveralls" },
   ];
 
   return (
