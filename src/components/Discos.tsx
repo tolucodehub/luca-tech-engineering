@@ -25,19 +25,32 @@ const discos = [
   { name: "Yola Electricity Distribution Company", shortName: "YEDC", logo: yedcLogo },
 ];
 
+const DiscoCard = ({ disco }: { disco: typeof discos[0] }) => (
+  <div className="flex-shrink-0 mx-3 md:mx-6 bg-white rounded-xl p-4 md:p-6 flex flex-col items-center justify-center min-w-[140px] md:min-w-[200px] border border-border shadow-sm hover:shadow-lg transition-shadow duration-300">
+    <img
+      src={disco.logo}
+      alt={disco.name}
+      className="h-10 md:h-16 max-w-[100px] md:max-w-[160px] object-contain mb-2 md:mb-3"
+    />
+    <p className="text-xs md:text-sm text-muted-foreground text-center font-medium">
+      {disco.shortName}
+    </p>
+  </div>
+);
+
 const Discos = () => {
   return (
-    <section id="discos" className="py-16 bg-muted/30 overflow-hidden">
+    <section id="discos" className="py-12 md:py-16 bg-muted/30 overflow-hidden">
       <div className="container mx-auto px-4">
         <ScrollReveal>
-          <div className="text-center max-w-3xl mx-auto mb-12">
+          <div className="text-center max-w-3xl mx-auto mb-8 md:mb-12">
             <span className="inline-block px-4 py-2 bg-primary/10 text-primary text-sm font-medium rounded-full mb-4">
               Distribution Partners
             </span>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold mb-6">
+            <h2 className="text-2xl md:text-4xl lg:text-5xl font-heading font-bold mb-4 md:mb-6">
               Nigerian <span className="text-gradient">DISCOs</span> We Serve
             </h2>
-            <p className="text-lg text-muted-foreground">
+            <p className="text-base md:text-lg text-muted-foreground">
               We partner with Nigeria's major electricity distribution companies to provide smart metering solutions nationwide.
             </p>
           </div>
@@ -47,42 +60,18 @@ const Discos = () => {
       {/* Marquee Animation Container */}
       <div className="relative">
         {/* Gradient overlays for smooth fade effect */}
-        <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-muted/30 to-transparent z-10" />
-        <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-muted/30 to-transparent z-10" />
+        <div className="absolute left-0 top-0 bottom-0 w-16 md:w-32 bg-gradient-to-r from-muted/30 to-transparent z-10" />
+        <div className="absolute right-0 top-0 bottom-0 w-16 md:w-32 bg-gradient-to-l from-muted/30 to-transparent z-10" />
         
-        {/* Scrolling container */}
-        <div className="flex animate-marquee">
+        {/* Scrolling container - uses CSS animation for seamless infinite scroll */}
+        <div className="flex w-max animate-marquee hover:[animation-play-state:paused]">
           {/* First set of logos */}
           {discos.map((disco, index) => (
-            <div
-              key={`first-${index}`}
-              className="flex-shrink-0 mx-6 bg-white rounded-xl p-6 flex flex-col items-center justify-center min-w-[200px] border border-border shadow-sm hover:shadow-lg transition-shadow duration-300"
-            >
-              <img
-                src={disco.logo}
-                alt={disco.name}
-                className="h-16 max-w-[160px] object-contain mb-3"
-              />
-              <p className="text-sm text-muted-foreground text-center font-medium">
-                {disco.shortName}
-              </p>
-            </div>
+            <DiscoCard key={`first-${index}`} disco={disco} />
           ))}
           {/* Duplicate set for seamless loop */}
           {discos.map((disco, index) => (
-            <div
-              key={`second-${index}`}
-              className="flex-shrink-0 mx-6 bg-white rounded-xl p-6 flex flex-col items-center justify-center min-w-[200px] border border-border shadow-sm hover:shadow-lg transition-shadow duration-300"
-            >
-              <img
-                src={disco.logo}
-                alt={disco.name}
-                className="h-16 max-w-[160px] object-contain mb-3"
-              />
-              <p className="text-sm text-muted-foreground text-center font-medium">
-                {disco.shortName}
-              </p>
-            </div>
+            <DiscoCard key={`second-${index}`} disco={disco} />
           ))}
         </div>
       </div>

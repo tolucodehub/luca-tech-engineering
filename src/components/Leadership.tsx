@@ -1,5 +1,6 @@
 import collinsIgwe from "@/assets/collins-igwe.jpg";
 import lucasBenson from "@/assets/lucas-benson.jpg";
+import kemisolaOlagunju from "@/assets/kemisola-olagunju.jpg";
 import { Quote } from "lucide-react";
 import ScrollReveal from "@/components/ScrollReveal";
 
@@ -8,13 +9,19 @@ const leaders = [
     name: "Mr. Collins Igwe",
     title: "Board Chairman",
     image: collinsIgwe,
-    quote: "At Luca Tech Power Solution Limited, we are committed to revolutionizing Nigeria's power sector through innovative smart metering solutions. Our vision is to deliver reliable, efficient energy management systems that empower communities and drive sustainable development across Africa.",
+    quote: "At Lucatech Power Solution Limited, we are committed to revolutionizing Nigeria's power sector through innovative smart metering solutions. Our vision is to deliver reliable, efficient energy management systems that empower communities and drive sustainable development across Africa.",
   },
   {
     name: "Lucas Benson O.",
     title: "CEO/MD",
     image: lucasBenson,
     quote: "Our commitment to excellence and innovation drives us to deliver world-class smart metering solutions. We are dedicated to transforming the energy landscape across Nigeria and beyond through cutting-edge technology and exceptional service.",
+  },
+  {
+    name: "Kemisola Olagunju",
+    title: "Project Supervisor",
+    image: kemisolaOlagunju,
+    quote: "Effective project management is the backbone of successful meter installations. We ensure every deployment meets the highest standards of quality and efficiency, delivering value to our clients and communities.",
   },
 ];
 

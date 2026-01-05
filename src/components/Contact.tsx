@@ -21,7 +21,7 @@ const Contact = () => {
     toast({
       title: "Message Sent!",
       description:
-        "Thank you for contacting Luca Tech Power Solution Limited. We'll get back to you shortly.",
+        "Thank you for contacting Lucatech Power Solution Limited. We'll get back to you shortly.",
     });
     setFormData({ name: "", email: "", phone: "", subject: "", message: "" });
   };
