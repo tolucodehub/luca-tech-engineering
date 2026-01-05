@@ -6,6 +6,7 @@ import Services from "@/components/Services";
 import Solutions from "@/components/Solutions";
 import Manufacturing from "@/components/Manufacturing";
 import Leadership from "@/components/Leadership";
+import Gallery from "@/components/Gallery";
 import Clients from "@/components/Clients";
 import Discos from "@/components/Discos";
 import Branches from "@/components/Branches";
@@ -37,6 +38,7 @@ const Index = () => {
           <Solutions />
           <Manufacturing />
           <Leadership />
+          <Gallery />
           <Clients />
           <Discos />
           <Branches />
