@@ -12,7 +12,7 @@ const Manufacturing = () => {
     { src: manufacturing2, alt: "Technicians assembling smart meters" },
     { src: manufacturing3, alt: "Quality control inspection" },
     { src: warehouseMeters, alt: "Warehouse with meters packed in cartons" },
-    { src: teamWorkers, alt: "Luca Tech Power Solutions team in green coveralls" },
+    { src: teamWorkers, alt: "Lucatech Power Solutions team in green coveralls" },
   ];
 
   return (

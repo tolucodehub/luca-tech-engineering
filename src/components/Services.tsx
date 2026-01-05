@@ -1,4 +1,4 @@
-import { Zap, Droplet, Building2, BarChart3, Wrench, Shield } from "lucide-react";
+import { Zap, Droplet, Building2, BarChart3, Wrench, Shield, Sun, Cog } from "lucide-react";
 import installationWork from "@/assets/installation-work.jpg";
 import oilGasFacility from "@/assets/oil-gas-facility.jpg";
 import engineerControlPanel from "@/assets/engineer-control-panel.jpg";
@@ -12,6 +12,20 @@ const services = [
     description:
       "Smart prepaid meter manufacturing, installation, and management across all 11 DISCOs in Nigeria.",
     features: ["Single & Three Phase Meters", "PLC & Inbus Technology", "Complete Installation"],
+  },
+  {
+    icon: Sun,
+    title: "Solar Installation",
+    description:
+      "Complete solar energy solutions from design to installation for residential, commercial, and industrial clients.",
+    features: ["Solar Panel Installation", "Inverter Systems", "Off-Grid & Hybrid Solutions"],
+  },
+  {
+    icon: Cog,
+    title: "Transformer Works",
+    description:
+      "Expert transformer installation, maintenance, and repair services for power distribution networks.",
+    features: ["Transformer Installation", "Maintenance & Repair", "Load Testing & Commissioning"],
   },
   {
     icon: Droplet,
@@ -68,7 +82,7 @@ const Services = () => {
               Comprehensive <span className="text-gradient">Energy Solutions</span>
             </h2>
             <p className="text-lg text-muted-foreground">
-              From smart metering to oil & gas, we deliver end-to-end solutions
+              From smart metering to solar installations and transformer works, we deliver end-to-end solutions
               that power businesses and communities across Africa.
             </p>
           </div>
@@ -102,7 +116,7 @@ const Services = () => {
         </div>
 
         {/* Services Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {services.map((service, index) => (
             <ScrollReveal key={index} delay={index * 100}>
               <div className="card-glass rounded-2xl p-8 hover:border-primary/50 transition-all duration-300 group h-full">
