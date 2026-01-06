@@ -5,6 +5,9 @@ import solar2 from "@/assets/gallery/solar-2.jpg";
 import solar3 from "@/assets/gallery/solar-3.jpg";
 import solar4 from "@/assets/gallery/solar-4.jpg";
 import solar5 from "@/assets/gallery/solar-5.jpg";
+import transformer1 from "@/assets/gallery/transformer-1.jpg";
+import transformer2 from "@/assets/gallery/transformer-2.jpg";
+import transformer3 from "@/assets/gallery/transformer-3.jpg";
 
 const galleryImages = [
   {
@@ -31,6 +34,21 @@ const galleryImages = [
     src: solar5,
     alt: "Large scale solar installation",
     title: "Commercial Solar Project",
+  },
+  {
+    src: transformer1,
+    alt: "Industrial transformer installation",
+    title: "Industrial Transformer Setup",
+  },
+  {
+    src: transformer2,
+    alt: "Transformer delivery and installation",
+    title: "Transformer Delivery",
+  },
+  {
+    src: transformer3,
+    alt: "Pole-mounted transformer installation",
+    title: "Pole-Mounted Transformer",
   },
 ];
 
