@@ -12,10 +12,10 @@ const leaders = [
     quote: "Mr. Collins has over three decades of experience spanning Banking, Consulting, and the Power sector. He holds a B.Sc. and MBA in Banking and Finance. He is recognized for his ability to combine strategic vision with operational excellence. His career reflects a commitment to innovation, customer-centric growth, and sustainable business practices. He recently retired from BEDC where he served as the Chief Commercial Officer and later as the Chief, Revenue Cycle Management. Prior to this, he held the role of Head Commercial, Cross River State at Port Harcourt Electricity Distribution Company. His early career in the financial sector includes senior roles at Access Bank, First Bank, Standard Trust Bank and Commercial Trust Bank.",
   },
   {
-    name: "Lucas Benson O.",
+    name: "Engr. Lucas Benson O.",
     title: "COO/MD",
     image: lucasBenson,
-    quote: "Our commitment to excellence and innovation drives us to deliver world-class smart metering solutions. We are dedicated to transforming the energy landscape across Nigeria and beyond through cutting-edge technology and exceptional service.",
+    quote: "Engr. Lucas Benson O is a seasoned engineer with extensive experience in the Nigerian power sector, supported by a strong technical background and proven leadership in electricity distribution and energy consulting. He holds a Bachelor of Engineering degree in Electrical and Electronics Engineering. He previously worked at the BEDC where he rose to the position of Distribution Manager and was responsible for overseeing operations, optimizing distribution networks, and ensuring reliable service delivery. He later transitioned into energy and electricity consulting, contributing to projects across the country by providing strategic solutions in power infrastructure, energy management, and sector reforms. He is currently serving as Chief Operating Officer, where he drives operational excellence, innovation, and sustainable growth within the energy industry.",
   },
   {
     name: "Kemisola Olagunju",
