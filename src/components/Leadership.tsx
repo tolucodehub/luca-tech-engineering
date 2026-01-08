@@ -6,14 +6,14 @@ import ScrollReveal from "@/components/ScrollReveal";
 
 const leaders = [
   {
-    name: "Mr. Collins Igwe",
-    title: "Board Chairman",
+    name: "MR. IGWE, Collins C.",
+    title: "MD/CEO",
     image: collinsIgwe,
-    quote: "At Lucatech Power Solution Limited, we are committed to revolutionizing Nigeria's power sector through innovative smart metering solutions. Our vision is to deliver reliable, efficient energy management systems that empower communities and drive sustainable development across Africa.",
+    quote: "Mr. Collins has over three decades of experience spanning Banking, Consulting, and the Power sector. He holds a B.Sc. and MBA in Banking and Finance. He is recognized for his ability to combine strategic vision with operational excellence. His career reflects a commitment to innovation, customer-centric growth, and sustainable business practices. He recently retired from BEDC where he served as the Chief Commercial Officer and later as the Chief, Revenue Cycle Management. Prior to this, he held the role of Head Commercial, Cross River State at Port Harcourt Electricity Distribution Company. His early career in the financial sector includes senior roles at Access Bank, First Bank, Standard Trust Bank and Commercial Trust Bank.",
   },
   {
     name: "Lucas Benson O.",
-    title: "CEO/MD",
+    title: "COO/MD",
     image: lucasBenson,
     quote: "Our commitment to excellence and innovation drives us to deliver world-class smart metering solutions. We are dedicated to transforming the energy landscape across Nigeria and beyond through cutting-edge technology and exceptional service.",
   },
