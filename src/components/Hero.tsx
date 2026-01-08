@@ -41,8 +41,8 @@ const Hero = () => {
             </h1>
 
             <p className="text-lg md:text-xl text-muted-foreground max-w-xl animate-fade-up delay-200">
-              Lucatech Power Solution Limited is Nigeria's largest supplier of smart
-              prepaid meters, delivering innovative energy management solutions
+              Lucatech Power Solution Limited is one of Nigeria's largest supplier of smart
+              prepaid meters partnered with Zhejiang Xinghao Technology Limited, delivering innovative energy management solutions
               across Africa, China, and the USA.
             </p>
 
