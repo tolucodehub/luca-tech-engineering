@@ -18,10 +18,10 @@ const leaders = [
     quote: "Engr. Lucas Benson O is a seasoned engineer with extensive experience in the Nigerian power sector, supported by a strong technical background and proven leadership in electricity distribution and energy consulting. He holds a Bachelor of Engineering degree in Electrical and Electronics Engineering. He previously worked at the BEDC where he rose to the position of Distribution Manager and was responsible for overseeing operations, optimizing distribution networks, and ensuring reliable service delivery. He later transitioned into energy and electricity consulting, contributing to projects across the country by providing strategic solutions in power infrastructure, energy management, and sector reforms. He is currently serving as Chief Operating Officer, where he drives operational excellence, innovation, and sustainable growth within the energy industry.",
   },
   {
-    name: "Kemisola Olagunju",
-    title: "Project Supervisor",
+    name: "Miss Kemisola D. Olagunju",
+    title: "Project Manager",
     image: kemisolaOlagunju,
-    quote: "Effective project management is the backbone of successful meter installations. We ensure every deployment meets the highest standards of quality and efficiency, delivering value to our clients and communities.",
+    quote: "Miss Kemisola D. Olagunju has over a decade of experience across the marketing and power sectors. She holds a B.A. in History and International Relations from Obafemi Awolowo University, an Executive Master's Certificate from the African School of Diplomacy and International Relations, and a proficiency certificate in Humanitarian Service and NGO Management from the Institute for Humanitarian Studies and Social Development. She is known for combining strategic vision with operational excellence and for her strong commitment to innovation and customer-focused growth. Before joining Lucatech Company as Project Manager, she served as a Policy and Desk Officer at the African Union Economic, Social and Cultural Council. Her career also includes roles in marketing at the Africa School of Diplomacy and International Relations and service with the National Assembly Senate Committee on Foreign Affairs.",
   },
 ];
 
